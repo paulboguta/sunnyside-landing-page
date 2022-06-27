@@ -3,9 +3,9 @@ import { IconContext } from "react-icons";
 import { GiHamburgerMenu } from "react-icons/gi";
 import styled from "styled-components";
 
-const HamburgerButton = () => {
+const HamburgerButton = (props) => {
   return (
-    <ButtonHamburger>
+    <ButtonHamburger onClick={props.onClick}>
       <IconContext.Provider value={{ style: { fontSize: "1.6rem" } }}>
         <GiHamburgerMenu />
       </IconContext.Provider>
