@@ -17,10 +17,10 @@ const Header = () => {
 };
 
 const Wrapper = styled.div`
-  height: 100vh;
+  height: 60vh;
   background-image: url(${BackgroundHeader});
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 `;
 
 const Heading = styled.h1`
