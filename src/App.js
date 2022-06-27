@@ -1,7 +1,7 @@
 import React from "react";
 import "./components/UI/UI.scss";
 import Header from "./components/Header/Header";
-import Main from "./components/Sections/Main/Main";
+import Main from "./components/Main/Main";
 
 const App = () => {
   return (
