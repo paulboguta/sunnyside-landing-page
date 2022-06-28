@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const IntroSection = (props) => {
   return (
-    <Wrapper>
+    <Wrapper direction={props.direction}>
       <img src={props.img} alt={props.alt} />
       <TextContent>
         <h1>{props.header}</h1>
@@ -20,9 +20,14 @@ const Wrapper = styled.div`
   align-items: center;
   text-align: center;
 
-  img {
-    height: 350px;
+  @media screen and (min-width: 768px) {
+    flex-direction: ${(props) => props.direction};
+    justify-content: flex-start;
     width: 100%;
+
+    img {
+      height: 50%;
+    }
   }
 `;
 
@@ -52,6 +57,12 @@ const TextContent = styled.div`
   a {
     text-decoration: none;
     text-transform: uppercase;
+  }
+
+  @media screen and (min-width: 768px) {
+    text-align: left;
+    padding: 5rem;
+    padding-inline: 8rem;
   }
 `;
 

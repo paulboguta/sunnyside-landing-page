@@ -10,24 +10,26 @@ const Testimonials = () => {
   return (
     <Wrapper>
       <h3>Client Testimonials</h3>
-      <Testimonial
-        img={ImgEmily}
-        text={Data.testimonials.testimonial1}
-        name="Emily R."
-        title="Marketing Director"
-      />
-      <Testimonial
-        img={ImgThomas}
-        text={Data.testimonials.testimonial2}
-        name="Thomas S."
-        title="Chief Operating Officer"
-      />
-      <Testimonial
-        img={ImgJennie}
-        text={Data.testimonials.testimonial3}
-        name="Jennie F."
-        title="Business Owner"
-      />
+      <Flex>
+        <Testimonial
+          img={ImgEmily}
+          text={Data.testimonials.testimonial1}
+          name="Emily R."
+          title="Marketing Director"
+        />
+        <Testimonial
+          img={ImgThomas}
+          text={Data.testimonials.testimonial2}
+          name="Thomas S."
+          title="Chief Operating Officer"
+        />
+        <Testimonial
+          img={ImgJennie}
+          text={Data.testimonials.testimonial3}
+          name="Jennie F."
+          title="Business Owner"
+        />
+      </Flex>
     </Wrapper>
   );
 };
@@ -41,6 +43,12 @@ const Wrapper = styled.div`
     text-transform: uppercase;
     letter-spacing: 3px;
     margin-top: 3rem;
+  }
+`;
+
+const Flex = styled.div`
+  @media screen and (min-width: 768px) {
+    display: flex;
   }
 `;
 export default Testimonials;

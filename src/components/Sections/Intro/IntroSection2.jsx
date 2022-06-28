@@ -13,7 +13,7 @@ const IntroSection2 = (props) => {
 };
 
 const Wrapper = styled.div`
-  height: 70vh;
+  height: 80vh;
   background-image: url(${(props) => props.background});
   background-size: cover;
   background-repeat: no-repeat;
@@ -22,6 +22,10 @@ const Wrapper = styled.div`
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+
+  @media screen and (min-width: 768px) {
+    width: 50%;
+  }
 `;
 
 const TextContent = styled.div`

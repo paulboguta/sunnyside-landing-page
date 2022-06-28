@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import BackgroundHeader from "../../images/mobile/image-header.jpg";
+import BackgroundHeaderMobile from "../../images/mobile/image-header.jpg";
+import BackgroundHeader from "../../images/desktop/image-header.jpg";
 import Nav from "./Nav";
 import ArrowDown from "../UI/ArrowDown";
 
@@ -21,9 +22,14 @@ const Wrapper = styled.div`
   background-image: url(${BackgroundHeader});
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 
   display: flex;
   flex-direction: column;
+
+  @media screen and (max-width: 768px) {
+    background-image: url(${BackgroundHeaderMobile});
+  }
 `;
 
 const Heading = styled.h1`

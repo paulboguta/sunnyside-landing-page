@@ -34,9 +34,11 @@ const Wrapper = styled.div`
   background-color: var(--light-cyan);
   display: flex;
   flex-direction: column;
+  align-items: center;
 
   img {
-    padding-inline: 7rem;
+    width: 20%;
+    height: 20%;
     margin-top: 3rem;
     margin-bottom: 3rem;
     filter: invert(47%) sepia(63%) saturate(271%) hue-rotate(118deg)
@@ -47,6 +49,7 @@ const Wrapper = styled.div`
 const Links = styled.div`
   display: flex;
   justify-content: space-around;
+  gap: 5rem;
 
   a {
     color: var(--dark-cyan-moderate);
