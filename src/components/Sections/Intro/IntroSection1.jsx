@@ -8,7 +8,7 @@ const IntroSection = (props) => {
       <TextContent>
         <h1>{props.header}</h1>
         <p>{props.description}</p>
-        <a href="#">Learn More</a>
+        <a>Learn More</a>
       </TextContent>
     </Wrapper>
   );
@@ -57,6 +57,12 @@ const TextContent = styled.div`
   a {
     text-decoration: none;
     text-transform: uppercase;
+  }
+
+  a:hover {
+    transition: 0.3s ease-in;
+    color: var(--dark-blue);
+    cursor: pointer;
   }
 
   @media screen and (min-width: 768px) {

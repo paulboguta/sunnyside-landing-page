@@ -27,7 +27,7 @@ const Nav = () => {
           <a href="#">About</a>
           <a href="#">Services</a>
           <a href="#">Projects</a>
-          <ContactButton color="var(--white)" />
+          <ContactButton color="var(--white)" hover="yellow" />
         </Navbar>
       </div>
     </React.Fragment>
@@ -61,6 +61,12 @@ const Navbar = styled.nav`
   a {
     text-decoration: none;
     color: var(--white);
+  }
+
+  a:hover {
+    transition: 0.3s ease-in;
+    color: var(--dark-blue);
+    cursor: pointer;
   }
 `;
 

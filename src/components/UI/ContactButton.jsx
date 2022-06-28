@@ -2,7 +2,11 @@ import React from "react";
 import styled from "styled-components";
 
 const ContactButton = (props) => {
-  return <Button color={props.color}>Contact</Button>;
+  return (
+    <Button color={props.color} hover={props.hover}>
+      Contact
+    </Button>
+  );
 };
 
 const Button = styled.button`
@@ -16,6 +20,11 @@ const Button = styled.button`
   font-size: 1rem;
   text-transform: uppercase;
   cursor: pointer;
+
+  &:hover {
+    transition: 0.5s ease-in;
+    background-color: ${(props) => props.hover};
+  }
 `;
 
 export default ContactButton;

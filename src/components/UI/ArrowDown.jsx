@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from "react";
+import * as Scroll from "react-scroll";
 import { HiOutlineArrowNarrowDown } from "react-icons/hi";
 import { IconContext } from "react-icons";
 import styled from "styled-components";
 
 const ArrowDown = (props) => {
+  let scroll = Scroll.animateScroll;
+
   const [animate, setAnimate] = useState(false);
 
   useEffect(() => {
@@ -16,9 +19,13 @@ const ArrowDown = (props) => {
     };
   }, [animate]);
 
+  const clickHandler = () => {
+    scroll.scrollTo(600);
+  };
+
   return (
     <div className="flex-center">
-      <Button onClick={props.onClick}>
+      <Button onClick={clickHandler}>
         <IconContext.Provider
           value={{
             style: { color: "white", fontSize: "8rem", marginTop: "4rem" },

@@ -55,6 +55,12 @@ const Links = styled.div`
     color: var(--dark-cyan-moderate);
   }
 
+  a:hover {
+    transition: 0.3s ease-in;
+    color: var(--dark-blue);
+    cursor: pointer;
+  }
+
   margin-bottom: 4rem;
 `;
 
