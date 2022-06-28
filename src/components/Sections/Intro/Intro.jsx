@@ -9,10 +9,10 @@ import IntroSection2 from "./IntroSection2";
 import Data from "./Data.json";
 
 const Intro = () => {
-  const images = {
-    imgPhotography: "url(../../../images/mobile/image-photography.jpg)",
-    imgGraphicDesign: "url(../../../images/mobile/image-graphic-design.jpg)",
-  };
+  // const images = {
+  //   imgPhotography: "../../../images/mobile/image-photography.jpg",
+  //   imgGraphicDesign: "url(../../../images/mobile/image-graphic-design.jpg)",
+  // };
 
   return (
     <Wrapper>
@@ -29,10 +29,14 @@ const Intro = () => {
         description={Data.descriptions.description2}
       />
       <IntroSection2
-        background={images.imgPhotography}
-        alt="alt"
-        header="Header"
-        description="desc"
+        img={ImgGraphicDesign}
+        header="Graphic Design"
+        description={Data.descriptions.description3}
+      />
+      <IntroSection2
+        img={ImgPhotography}
+        header="Photography"
+        description={Data.descriptions.description4}
       />
     </Wrapper>
   );
