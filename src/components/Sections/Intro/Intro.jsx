@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 import ImgTransform from "../../../images/mobile/image-transform.jpg";
 import ImgStandOut from "../../../images/mobile/image-stand-out.jpg";
 import ImgPhotography from "../../../images/mobile/image-photography.jpg";

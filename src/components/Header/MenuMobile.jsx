@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import HamburgerMenuButton from "../UI/HamburgerMenuButton";
+import ContactButton from "../UI/ContactButton";
 
 const MenuMobile = () => {
   return (
@@ -9,7 +9,7 @@ const MenuMobile = () => {
       <a href="#">About</a>
       <a href="#">Services</a>
       <a href="#">Projects</a>
-      <HamburgerMenuButton />
+      <ContactButton color={"var(--yellow)"} />
     </Wrapper>
   );
 };

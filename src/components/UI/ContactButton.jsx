@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 
-const HamburgerMenuButton = () => {
-  return <Button>Contact</Button>;
+const ContactButton = (props) => {
+  return <Button color={props.color}>Contact</Button>;
 };
 
 const Button = styled.button`
-  background-color: var(--yellow);
+  background-color: ${(props) => props.color};
   border: none;
   height: 3rem;
   width: 8rem;
@@ -18,4 +18,4 @@ const Button = styled.button`
   cursor: pointer;
 `;
 
-export default HamburgerMenuButton;
+export default ContactButton;

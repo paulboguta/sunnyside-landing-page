@@ -21,6 +21,9 @@ const Wrapper = styled.div`
   background-image: url(${BackgroundHeader});
   background-repeat: no-repeat;
   background-size: cover;
+
+  display: flex;
+  flex-direction: column;
 `;
 
 const Heading = styled.h1`
