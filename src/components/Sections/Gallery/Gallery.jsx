@@ -17,6 +17,7 @@ const Gallery = () => {
 };
 
 const Wrapper = styled.div`
+  margin-top: 140px;
   width: 100vw;
   display: grid;
   grid-template-columns: 1fr 1fr;

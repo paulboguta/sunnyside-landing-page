@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Intro from "../Sections/Intro/Intro";
 import Testimonials from "../Sections/Testimonials/Testimonials";
 import Gallery from "../Sections/Gallery/Gallery";
+import Footer from "../Sections/Footer/Footer";
 
 const Main = () => {
   return (
@@ -10,6 +11,7 @@ const Main = () => {
       <Intro />
       <Testimonials />
       <Gallery />
+      <Footer />
     </Wrapper>
   );
 };

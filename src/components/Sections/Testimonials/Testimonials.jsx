@@ -33,9 +33,7 @@ const Testimonials = () => {
 };
 
 const Wrapper = styled.div`
-  height: 100vh;
   text-align: center;
-
   h3 {
     font-size: 1rem;
     color: var(--blue-grayish);
