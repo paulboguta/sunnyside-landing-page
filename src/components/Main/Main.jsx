@@ -1,11 +1,15 @@
 import React from "react";
 import styled from "styled-components";
 import Intro from "../Sections/Intro/Intro";
+import Testimonials from "../Sections/Testimonials/Testimonials";
+import Gallery from "../Sections/Gallery/Gallery";
 
 const Main = () => {
   return (
     <Wrapper>
       <Intro />
+      <Testimonials />
+      <Gallery />
     </Wrapper>
   );
 };

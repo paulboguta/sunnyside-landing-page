@@ -9,13 +9,8 @@ import IntroSection2 from "./IntroSection2";
 import Data from "./Data.json";
 
 const Intro = () => {
-  // const images = {
-  //   imgPhotography: "../../../images/mobile/image-photography.jpg",
-  //   imgGraphicDesign: "url(../../../images/mobile/image-graphic-design.jpg)",
-  // };
-
   return (
-    <Wrapper>
+    <div>
       <IntroSection1
         img={ImgTransform}
         alt="Egg on yellow background"
@@ -38,12 +33,8 @@ const Intro = () => {
         header="Photography"
         description={Data.descriptions.description4}
       />
-    </Wrapper>
+    </div>
   );
 };
-
-const Wrapper = styled.div`
-  height: 100%;
-`;
 
 export default Intro;
