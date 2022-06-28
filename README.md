@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](/Users/pawelboguta/repos/sunnyside-landing-page/screenshot1.png)
-![](/Users/pawelboguta/repos/sunnyside-landing-page/screenshot2.png)
+![](https://github.com/paulboguta/sunnyside-landing-page/blob/main/screenshot1.png)
+![](https://github.com/paulboguta/sunnyside-landing-page/blob/main/screenshot2.png)
 
 ### Links
 
