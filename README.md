@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot1.jpg)
-![](./screenshot2.jpg)
+![](/Users/pawelboguta/repos/sunnyside-landing-page/screenshot1.png)
+![](/Users/pawelboguta/repos/sunnyside-landing-page/screenshot2.png)
 
 ### Links
 
