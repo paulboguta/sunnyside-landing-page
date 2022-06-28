@@ -40,7 +40,7 @@ const Triangle = styled.div`
   border-color: transparent transparent var(--white) transparent;
   position: fixed;
   right: 1.55rem;
-  top: 3rem;
+  top: 3.2rem;
 `;
 
 export default MenuMobile;
