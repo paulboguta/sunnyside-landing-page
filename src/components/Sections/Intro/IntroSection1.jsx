@@ -23,11 +23,10 @@ const Wrapper = styled.div`
   @media screen and (min-width: 768px) {
     flex-direction: ${(props) => props.direction};
     justify-content: flex-start;
-    width: 100%;
+  }
 
-    img {
-      height: 50%;
-    }
+  img {
+    width: 100%;
   }
 `;
 
