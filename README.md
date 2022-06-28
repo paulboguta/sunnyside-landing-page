@@ -46,5 +46,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Pawel Boguta](https://https://pawelboguta.netlify.app/)
+- Website - [Pawel Boguta](https://pawelboguta.netlify.app/)
 - Twitter - [@pawelboguta](https://www.twitter.com/pawelboguta)
