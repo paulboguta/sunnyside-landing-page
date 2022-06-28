@@ -43,6 +43,11 @@ const Wrapper = styled.div`
     margin-bottom: 3rem;
     filter: invert(47%) sepia(63%) saturate(271%) hue-rotate(118deg)
       brightness(70%) contrast(95%); // generator: https://codepen.io/sosuke/pen/Pjoqqp
+
+    @media screen and (min-width: 1800px) {
+      width: 10%;
+      height: 15%;
+    }
   }
 `;
 

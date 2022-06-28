@@ -25,8 +25,8 @@ const Wrapper = styled.div`
     justify-content: flex-start;
   }
 
-  img {
-    width: 100%;
+  @media screen and (min-width: 1460px) {
+    flex-direction: row;
   }
 `;
 

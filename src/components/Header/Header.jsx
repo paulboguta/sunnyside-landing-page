@@ -19,7 +19,6 @@ const Header = () => {
 
 const Wrapper = styled.div`
   height: 60vh;
-  width: 100%;
   background-image: url(${BackgroundHeader});
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,7 +27,7 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (max-width: 768px) {
     background-image: url(${BackgroundHeaderMobile});
   }
 `;
