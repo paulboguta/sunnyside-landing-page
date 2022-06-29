@@ -44,6 +44,8 @@ Users should be able to:
 
 ### What I learned
 
+I heavily used styled components in this project to practice it more (also with passing data via props to them). I'm getting more and more used to mobile-first workflow, transition to that was tough, beacuse on the beginning of my front-end journey I wasn't doing it, but right now it feels much easier to expand things rather than shrinking them.
+
 ## Author
 
 - Website - [Pawel Boguta](https://pawelboguta.netlify.app/)
