@@ -43,6 +43,7 @@ const Button = styled.button`
   border: none;
   cursor: pointer;
   background-color: transparent;
+  z-index: 3;
 `;
 
 export default ArrowDown;
